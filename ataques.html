@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!--
+	HACKING COMMUNITY
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script language=javascript>
+			var rev = "fwd";
+			function titlebar(val){
+				var msg  = "Tipos de ataques :(";
+				var res = " ";
+				var speed = 200;
+				var pos = val;
+				msg = "   "+msg+"";
+				var le = msg.length;
+				if(rev == "fwd"){
+					if(pos < le){
+						pos = pos+1;
+						scroll = msg.substr(0,pos);
+						document.title = scroll;
+						timer = window.setTimeout("titlebar("+pos+")",speed);
+					}
+					else {
+						rev = "bwd";
+						timer = window.setTimeout("titlebar("+pos+")",speed);
+					}
+				}
+				else {
+					if(pos > 0) {
+						pos = pos-1;
+						var ale = le-pos;
+						scrol = msg.substr(ale,le);
+						document.title = scrol;
+						timer = window.setTimeout("titlebar("+pos+")",speed);
+					}
+					else {
+						rev = "fwd";
+						timer = window.setTimeout("titlebar("+pos+")",speed);
+					}
+				}
+			}
+			titlebar(0);
+		</script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<a href="index.html" class="logo"><strong>HACKER.WORKS</strong></a>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
+
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="">
+						<div class="inner">
+							<span class="image">
+								<img src="images/binario.gif" alt="" />
+							</span>
+							<header class="major">
+								<h2>Los ataques mas famosos en el mundo del hacking.</h2>
+							</header>
+							<div class="content">
+								<p>Hay de todo tipo de ataques en el mundo cybernetico<br />
+								y hoy explicaremos los 3 mejores, como se hacen y como prevenirlos.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Ataque cibernético</h2>
+									</header>
+									<p>Bien lo primero que tendremos que saber antes de entrar en contexto tenemos que saber que es un ataque cibernético.
+									 Un ataque cibernético es una acción delictiva y malintencionada que se realiza para acceder a información privada, bien para apropiarse de ella o bien para inutilizarla y pedir dinero a cambio de liberarla.
+									Pero hay muchos casos que no son para fastidiar a una persona o empresa ni para sacar bienes gananciales, sino mas por saber de la vida de la persona que sufre el ataque, cuanto dinero tiene, con quien habla, ETC...</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/ransom.gif" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Ransomware</h3>
+											</header>
+											<p>
+												El ransomware es un tipo de malware, o software malicioso, que secuestra archivos y, en ocasiones, equipos o dispositivos móviles enteros. Podemos 
+												definir el ransomware según este comportamiento: los hackers solicitan el pago de un rescate a cambio de descifrar sus archivos y así devolverle el acceso a estos.
+												El ransomware se distribuye comúnmente a través de correos electrónicos que alientan al destinatario a abrir un archivo adjunto malicioso. 
+												El archivo se puede entregar en una variedad de formatos, incluido un archivo ZIP, PDF, documento de Word, hoja de cálculo de Excel y más.</p>
+										</div>
+						<a href="https://www.youtube.com/watch?v=E0dHO2ZwytE">Aqui podreis aprender a crear un ransomware en pyton, no nos hacemos responsables de la informacion.</a>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Rhoncus magna</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						
+			
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
